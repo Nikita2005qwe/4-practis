@@ -33,3 +33,6 @@ def output_assessment(num_weeks):
         return 5 - num_weeks - 1
     if num_weeks >= 4:
         return 0
+
+def deadline_score(pass_date: str, deadline_date: str):
+    return output_assessment(output_weeks(delta_day(pass_date, deadline_date)))
