@@ -1,6 +1,7 @@
 from Calculating_the_Number_of_Points import output_assessment, output_weeks, delta_day
 import re
 
+print("эмулирую напарника")
 def convert_date(date):
     data_date = re.split("-", date)
     day = data_date[0]
